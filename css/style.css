@@ -66,7 +66,7 @@ header nav ul a:hover {
 .yoga__project .yoga__wrapper .yoga__left button {
   padding: 16px 38px 16px 38px;
   border: none;
-  background-color: #ff52ae;
+  background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(253, 29, 223) 100%, rgb(252, 176, 69) 100%);
   color: #ffffff;
   border-radius: 64px;
   margin-top: 30px;
@@ -120,8 +120,124 @@ header nav ul a:hover {
 .yoga__section2 .yoga-wrapper__control .yoga-wrapper_right button {
   padding: 16px 38px 16px 38px;
   border: none;
-  background-color: #ff52ae;
+  background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(253, 29, 223) 100%, rgb(252, 176, 69) 100%);
   color: #ffffff;
   border-radius: 64px;
   margin-top: 40px;
+}
+
+.yoga__section3 {
+  padding: 48px 0px 48px 0px;
+}
+.yoga__section3 .yoga-wrapper_section {
+  display: flex;
+  justify-content: space-between;
+}
+.yoga__section3 .yoga-wrapper_section .section3__left h1 {
+  max-width: 390px;
+  font-size: 64px;
+  font-weight: 300;
+  margin-top: 100px;
+}
+.yoga__section3 .yoga-wrapper_section .section3__left p {
+  max-width: 390px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #6d6d6d;
+  margin-top: 30px;
+}
+.yoga__section3 .yoga-wrapper_section .section3__left button {
+  padding: 16px 38px 16px 38px;
+  border: none;
+  background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(253, 29, 223) 100%, rgb(252, 176, 69) 100%);
+  color: #ffffff;
+  border-radius: 64px;
+  margin-top: 40px;
+}
+
+.yoga__section4 {
+  padding: 48px 0px 48px 0px;
+}
+.yoga__section4 .section4__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.yoga__section4 .section4__wrapper h1 {
+  max-width: 400px;
+  font-size: 64px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 120px;
+}
+.yoga__section4 .section4__wrapper h1 span {
+  color: #ff52ae;
+}
+.yoga__section4 .section4__wrapper button {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(253, 29, 223) 100%, rgb(252, 176, 69) 100%);
+  margin-left: 150px;
+  margin-top: 70px;
+  padding: 30px 30px 30px 30px;
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+}
+.yoga__section4 .wrapper__section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.yoga__section5 {
+  padding: 48px 0px 48px 0px;
+}
+.yoga__section5 .section5__wrapper {
+  width: 1200px;
+  height: 374px;
+  background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(253, 29, 223) 100%, rgb(252, 176, 69) 100%);
+  border-radius: 40px;
+  margin-top: 30px;
+}
+.yoga__section5 .section5__wrapper h1 {
+  color: #fff;
+  font-size: 56px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+.yoga__section5 .section5__wrapper p {
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+  color: #dfdfdf;
+}
+.yoga__section5 .section5__wrapper .banner {
+  max-width: 528px;
+  height: 72px;
+  background-color: #ffffff;
+  margin-top: 40px;
+  margin-left: 335px;
+  border-radius: 40px;
+  display: flex;
+}
+.yoga__section5 .section5__wrapper .banner input {
+  margin-left: 40px;
+  margin-top: 25px;
+  border: none;
+}
+.yoga__section5 .section5__wrapper .banner button {
+  width: 150px;
+  height: 50px;
+  border: none;
+  background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(253, 29, 223) 100%, rgb(252, 176, 69) 100%);
+  color: #ffffff;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-left: 190px;
 }/*# sourceMappingURL=style.css.map */
