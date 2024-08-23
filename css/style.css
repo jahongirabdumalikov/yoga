@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.highlight {
+  background-color: #000;
+}
+
+body {
+  background-color: #F5F0FF;
+}
+
+header {
+  padding: 10px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+header nav ul a {
+  color: #ff52ae;
+  transition: all 0.3s;
+}
+header nav ul a:hover {
+  color: #ff0000;
+}
+
+.yoga__project {
+  padding: 48px 0px 48px 0px;
+}
+.yoga__project .yoga__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.yoga__project .yoga__wrapper .yoga__left h1 {
+  font-size: 96px;
+  max-width: 590px;
+  margin-top: 40px;
+}
+.yoga__project .yoga__wrapper .yoga__left h1 span {
+  color: #ff52ae;
+}
+.yoga__project .yoga__wrapper .yoga__left p {
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 380px;
+  color: #606060;
+  margin-top: 20px;
+}
+.yoga__project .yoga__wrapper .yoga__left button {
+  padding: 16px 38px 16px 38px;
+  border: none;
+  background-color: #ff52ae;
+  color: #ffffff;
+  border-radius: 64px;
+  margin-top: 30px;
+}
+.yoga__project .yoga__wrapper .yoga__left h2 {
+  font-size: 56px;
+  font-weight: 300;
+  margin-top: 30px;
+}
+.yoga__project .yoga__wrapper .yoga__left .price {
+  display: flex;
+  gap: 70px;
+  margin-top: 30px;
+}
+.yoga__project .yoga__wrapper .yoga__right img {
+  width: 500px;
+}
+
+.yoga__section {
+  padding: 48px 0px 48px 0px;
+}
+.yoga__section .yoga-section__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.yoga__section .yoga-section__wrapper h1 {
+  font-size: 56px;
+  font-weight: 400;
+}
+
+.yoga__section2 {
+  padding: 48px 0px 48px 0px;
+}
+.yoga__section2 .yoga-wrapper__control {
+  display: flex;
+  gap: 50px;
+}
+.yoga__section2 .yoga-wrapper__control .yoga-wrapper_right h1 {
+  font-size: 64px;
+  font-weight: 400;
+  max-width: 590px;
+  margin-top: 120px;
+}
+.yoga__section2 .yoga-wrapper__control .yoga-wrapper_right p {
+  max-width: 500px;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 50px;
+}
+.yoga__section2 .yoga-wrapper__control .yoga-wrapper_right button {
+  padding: 16px 38px 16px 38px;
+  border: none;
+  background-color: #ff52ae;
+  color: #ffffff;
+  border-radius: 64px;
+  margin-top: 40px;
+}/*# sourceMappingURL=style.css.map */
